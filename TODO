@@ -1,0 +1,16 @@
+# Steps for Adding Passport Github Oauth
+
+1. Database migration for users - COMPLETE
+1. Register an application on Github - COMPLETE
+1. Copy the keys over to the *.env* - COMPLETE
+1. Set up the main passport config
+  - mount passport to app middleware - COMPLETE
+  - init passport along with session management - COMPLETE
+1. Init specific auth strategy for the specific auth provider - COMPLETE
+1. Helper functions
+  - login - COMPLETE
+  - logout - COMPLETE
+  - authRequired - COMPLETE
+  - adminRequired (optional)
+  - loginRedirect - COMPLETE
+1. Add views - COMPLETE
